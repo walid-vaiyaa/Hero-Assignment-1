@@ -45,7 +45,7 @@
 }
 
 /* hero section */
-.hero {
+.hero{
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -68,9 +68,6 @@
     font-size: 72px; 
     margin: 20px 0; 
 }
-.font-big.{
-
-}
 .second-green { 
     color: #30B868; 
 }
@@ -90,10 +87,6 @@
     border-radius: 5px;
     cursor: pointer;
 }
-.btn-green img{
-    
-}
-
 .btn-outline {
     background: transparent;
     border: 1px solid white;
@@ -113,9 +106,7 @@
    width: 100%;
    max-width: 1600px;
 }
-.banner-content{
 
-}
 .image-inside{
     text-align: center;
     justify-content: center;
@@ -123,11 +114,6 @@
 }
 
 /* card style */
-
-/* .parent-card-container .Structure {
-    text-align: center;
-    padding-top: 60px;
-    row-gap: 0; */
 
 .headline-parent h1{
     text-align: center;
@@ -160,7 +146,6 @@
     box-shadow: rgba(0, 0, 0, 0.062) 7px 7px 8px;
     border-radius: 13px;
     padding: 80px;
-    /* border: 1px solid rgba(14, 14, 14, 0.5); */
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -187,6 +172,9 @@
 /* second banner */
 
 .second-banner-parent{
+    padding: 120px;
+    padding-bottom: 0px;
+    margin: 0 auto;
     display: flex;
     padding: 120px;
   
@@ -226,16 +214,20 @@
     list-style: none;
     flex-direction: column;
 }
-.icon-green{
-    background:
+.second-banner-parent li{
+    padding-left: 30px;
+    background-image: url('./assets/CheckCircle.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;   
 }
+
 
 
 /* about style */
 #about{
     padding: 120px;
     padding-bottom: 0px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 
 #about .about-container{
@@ -263,7 +255,7 @@
     border-radius: 4px;
     border: none;
     background-color: #30B868;
-    cursor: pointer;
+    cursor: pointer;  
 }
 
 #about .about-container .list{
@@ -307,3 +299,4 @@
     text-align: center;
     font-size: 16px;
     padding-bottom: 25px;
+}
