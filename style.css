@@ -69,8 +69,17 @@
 
 .headline-parent h1{
     text-align: center;
-    background-color: aqua;
+    font-size: 48px;
+    padding-top: 30px;
+    /* background-color: aqua; */
 }
+.headline-parent .para{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #627382;
+}
+
 
 .headline-card p{
     text-align: center;
@@ -85,17 +94,24 @@
 }
 
 .card-iteam{
-    background-color: antiquewhite;
+    background-color: rgb(254, 252, 249);
+    box-shadow: rgba(0, 0, 0, 0.062) 7px 7px 8px;
     border-radius: 13px;
     padding: 12px;
-    border: 1px solid rgba(14, 14, 14, 0.5);
+    /* border: 1px solid rgba(14, 14, 14, 0.5); */
     display: flex;
     flex-direction: column;
     gap: 15px;
+    align-items: center;
+    
 }
 .card-iteam img{
-    width: 80px;
-    height: 80px;
+    padding- left: 6px;
+    width: 30px;
+    height: 30px;
+    
+    background-color: red;
+    border-radius: 60px;
 }
 .card-iteam p{
     color: #627382;
@@ -103,6 +119,7 @@
 .parent-card-container{
     display: flex ;
     gap: 15px;
+    margin: 0 auto;
 }
 
 /* about style */
