@@ -58,6 +58,38 @@
     margin: 0 auto;
 }
 
+/* second banner */
+
+.second-banner-parent{
+    display: flex;
+    padding: 120px;
+  
+}
+.second-banner-parent img{
+    size: 600px 600px;
+}
+
+.second-banner-parent .small{
+    font-size: 16px;
+    color: #30B868;
+    line-height: 16px;
+}
+.second-banner-parent .big{
+    font-size: 48px;
+    color: #001931;
+    padding-top: 15px;
+    gap: 10px ;
+}
+.second-banner-parent .paragrapg{
+    padding-top: 20px;
+    font-size: 16px;
+    color: #627382;
+}
+.second-banner-parent .checkbox{
+      
+}
+
+
 /* card style */
 
 /* .parent-card-container .Structure {
