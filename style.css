@@ -8,7 +8,65 @@
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
+/* hero section */
+.hero {
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(rgba(10, 17, 24, 0.153), 
+    rgba(10, 17, 24, 0.071)), 
+    url('./assets/hero-bg.png');
+    /* background-size: cover; */  
+}
 
+.badge {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    border: 1px solid ;
+}
+
+.hero h1 { 
+    font-size: 72px; 
+    margin: 20px 0; 
+}
+.font-big.{
+
+}
+.second-green { 
+    color: #30B868; 
+}
+
+.hero p { 
+    max-width: 600px; 
+    margin: 0 auto 30px; 
+    color: #ccc; }
+
+/* Buttons */
+.btn-green {
+    background: #30B868;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 16px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-green img{
+    
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 16px 12px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+/* -------------------- */
 .container{
     max-width: 1350px;
     margin: auto;
